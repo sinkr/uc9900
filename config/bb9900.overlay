@@ -47,6 +47,9 @@
         pwm_led_0 {
             pwms = <&pwm1 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
         };
+        pwm_led_1 {
+            pwms = <&pwm2 0 PWM_USEC(20) PWM_POLARITY_NORMAL>;
+        };
     };
 
     default_transform: keymap_transform_0 {
