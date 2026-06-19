@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: ZitaoTech
       url-base: https://github.com/ZitaoTech
+    - name: sinkr
+      url-base: https://github.com/sinkr
   projects:
     - name: zmk
-      remote: ZitaoTech
+      remote: sinkr
       revision: bbkeyboard_tp
       import: app/west.yml
   self:
